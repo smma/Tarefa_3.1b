@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>ANIMALEC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="ListSponsors.css" />
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img src="animalec.png" alt="logo" />
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#">ANIMAIS</a></li>
+                <li><a href="#">QUIZZES</a></li>
+                <li><a href="#">CONTACTOS</a></li>
+                <li><a href="#">ADMIN</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <span class="menu-toggle-text">Menu</span>
+        <button type="button" aria-label="Toggle navigation" aria-controls="nav-collapse" aria-expanded="false"
+            class="navbar-toggler">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+    </header>
+    <section>
+        <h1>GESTÃO DE PATROCINADORES</h1>
+        <div class="custom-line">
+            <hr />
+            <div class="star"><i class="fas fa-star fa-5x"></i></div>
+            <hr />
+        </div>
+        <div class="list-panel">
+            <button class="btn-add">
+                <i class="fas fa-plus-square"></i> ADICIONAR PATROCINADOR
+            </button>
+            <form action="./Admin.html" method="GET">
+                <button class="btn-main">
+                    <i class="fas fa-bars"></i> MENU PRINCIPAL
+                </button>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>NOME <i class="fas fa-arrow-up"></i></th>
+                        <th>NÍVEL</th>
+                        <th>CONTRIBUIÇÕES</th>
+                        <th>AÇÕES</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cristiano Ronaldo</td>
+                        <td>Ouro</td>
+                        <td>100000€</td>
+                        <td>
+                            <a href="#" class="btn-add action-link">
+                                <i class="fas fa-edit"></i> EDITAR
+                            </a>
+                            <a href="#" class="btn-add action-link">
+                                <i class="fas fa-search"></i> VER
+                            </a>
+                            <a href="#" class="btn-del action-link">
+                                <i class="fas fa-trash-alt"></i> REMOVER
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Lionel Messi</td>
+                        <td>Prata</td>
+                        <td>50000€</td>
+                        <td>
+                            <a href="#" class="btn-add action-link">
+                                <i class="fas fa-edit"></i> EDITAR
+                            </a>
+                            <a href="#" class="btn-add action-link">
+                                <i class="fas fa-search"></i> VER
+                            </a>
+                            <a href="#" class="btn-del action-link">
+                                <i class="fas fa-trash-alt"></i> REMOVER
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Neymar Jr</td>
+                        <td>Bronze</td>
+                        <td>20000€</td>
+                        <td>
+                            <a href="#" class="btn-add action-link">
+                                <i class="fas fa-edit"></i> EDITAR
+                            </a>
+                            <a href="#" class="btn-add action-link">
+                                <i class="fas fa-search"></i> VER
+                            </a>
+                            <a href="#" class="btn-del action-link">
+                                <i class="fas fa-trash-alt"></i> REMOVER
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+
+</html>
